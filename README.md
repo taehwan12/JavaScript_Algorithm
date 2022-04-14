@@ -1,2 +1,2 @@
-# JavaScript_LeetCode
-Leet Code Practice with JavaScript
+# JavaScript_Algorithm
+Algorithm Practice with JavaScript

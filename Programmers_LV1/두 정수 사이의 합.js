@@ -1,12 +1,9 @@
 function solution(a, b) {
-    var answer = 0;
-    if(a > b){
+    if(b < a){
         let temp = a;
         a = b;
         b = temp;
     }
-    for(let i = a; i <= b; i++){
-        answer += i;
-    }
-    return answer;
+    let sum = b * (b + 1) / 2 - a * (a - 1) / 2;
+    return sum;
 }
